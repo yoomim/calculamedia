@@ -29,15 +29,15 @@
 
     <script> //script é back end
         function calcular(){
-            var n1, n2, media;
-            //var n1, n2, n3, media;
+            //var n1, n2, media;
+            var n1, n2, n3, media;
 
             n1 = document.getElementById('nota_1').value; //o valor da nota 1 vai vir do valor digitado em nota1
             n2 = document.getElementById('nota_2').value;
-            //n3 = document.getElementById('nota_3').value;
+            n3 = document.getElementById('nota_3').value;
 
-            media = (parseFloat(n1) + parseFloat(n2)) / 2 //concatena o valor digitado em nota1 com nota2, que é um número real 
-            //media = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3)) / 3
+            //media = (parseFloat(n1) + parseFloat(n2)) / 2 //concatena o valor digitado em nota1 com nota2, que é um número real 
+            media = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3)) / 3
 
             document.getElementById('media').innerHTML = media
             //innerHTML retorna o valor ou texto digitado em html
